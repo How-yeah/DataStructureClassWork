@@ -1,14 +1,3 @@
-# 求失效函数
-
-## 要求
-
-模式匹配 KMP 算法中，失效函数 next 的算法思想和实现
-
-15 min
-
-## `kmp` 代码实现
-
-```c++
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -60,5 +49,3 @@ int main()
     cout << KMP(a, b) << endl;
     system("pause");
 }
-```
-
