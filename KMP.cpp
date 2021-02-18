@@ -27,7 +27,7 @@ int KMP(const string &ob, const string &pat, const int start = 0)
     int i = start, j = 0;
     while (i < m && j < n && (m - i) >= (n - j))
     {
-        if (j == -1 || ob[i] == pat[j])
+        if (j == -1 || ob[i] == pat[j]) //当前字符匹配成功
         {
             i++; //继续对下一个字符比较
             j++; //模式串向右滑动
